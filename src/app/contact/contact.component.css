@@ -1,0 +1,80 @@
+.container {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container2 {
+    margin: 0 0 10px 44px;
+    justify-content: start;
+}
+
+.container2 .paragraph {
+    color: aliceblue;
+    text-align: justify;
+}
+
+.heading .name {
+    font-size: 45px;
+    font-weight: 800;
+    color: aliceblue;
+    margin-left: 50px;
+}
+
+.contact {
+    text-align: justify;
+    margin: 71px 0 0 138px;
+}
+
+span {
+    margin: 20px;
+}
+
+.call2,
+.mail2,
+.git2,
+.linkedin2 {
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSection {
+    width: 50%;
+    margin-top: 6rem;
+}
+
+.rightSection {
+    width: 40%;
+}
+
+.rightSection img {
+    height: 68%;
+    width: 49%;
+    border-radius: 50%;
+    margin-top: 22%;
+}
+
+.image img {
+    height: 29%;
+    width: 25%;
+    margin: 30px 0 0 39%;
+
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(54, 54, 244);
+}
+
+.copyright p {
+    margin: 70px 0 0 42%;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 35px;
+    font-weight: 600;
+}

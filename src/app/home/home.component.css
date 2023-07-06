@@ -1,0 +1,115 @@
+.container {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.heading .hello {
+    font-size: 30px;
+    font-weight: 800;
+    margin-right: 198px;
+    color: aliceblue;
+}
+
+.heading .name {
+    font-size: 45px;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+
+.site {
+    text-align: center;
+    margin-right: 43%;
+}
+
+.site a .bi-github,
+.bi-linkedin,
+.bi-whatsapp {
+    font-size: 30px;
+    margin: 35px 15px 0 0;
+}
+
+.bi-github {
+    color: #fff7f7;
+}
+
+.bi-linkedin {
+    color: #4070F4;
+}
+
+.bi-whatsapp {
+    color: #00ff00;
+}
+
+.btn-primary {
+    margin: 30px 0 0 19%;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: white;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.leftSection {
+    width: 50%;
+}
+
+.rightSection {
+    width: 40%;
+}
+
+.rightSection img {
+    margin-top: 35px;
+    height: 97%;
+    width: 96%;
+}
+
+
+/* Left container  */
+
+.container2 {
+    margin: 0 0 17px 47px;
+}
+
+.container2 .text {
+    position: relative;
+    color: #4070F4;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.container2 .text.first-text {
+    color: aliceblue;
+}
+
+.text.sec-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #252c2f;
+    border-left: 2px solid #4070F4;
+    animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+
+    40%,
+    60% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}

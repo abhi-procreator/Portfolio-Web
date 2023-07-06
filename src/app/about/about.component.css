@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container2 {
+    margin: 0 0 10px 44px;
+    justify-content: start;
+}
+
+.container2 .paragraph {
+    color: aliceblue;
+    text-align: justify;
+    line-height: 2;
+    font-size: 20px;
+    margin: 42px 0 0 10px;
+}
+.container2 .paragraph .ang{
+   color:#489add;
+   font-size: 20;
+   font-weight: 600;
+}
+
+.heading .name {
+    font-size: 45px;
+    font-weight: 800;
+    color: aliceblue;
+    margin-left: 40px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSection {
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.rightSection {
+    width: 40%;
+}
+
+.rightSection img {
+    margin-top: 37px;
+    height: 92%;
+    width: 90%;
+}
+

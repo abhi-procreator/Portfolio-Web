@@ -1,0 +1,125 @@
+.container-fluid {
+    height: 70px;
+}
+
+.bg-body-primary {
+    background-color: #39396e;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    margin-left: 92px;
+    font-weight: 600;
+    color: white;
+}
+   
+.side-nav {
+    margin-right: 10px;
+}
+
+.side-nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.side-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.side-nav ul li a:hover {
+    color: rgb(10, 190, 249);
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.navbar-toggler span {
+    color: aliceblue;
+} 
+
+
+
+
+/* .checkbtn{
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 20px;
+    line-height: 80px;
+    display: none;
+}
+#check{
+    display: none;
+}
+.bars{
+    float: right;
+}
+
+.side-nav ul{
+    float: right;
+    margin-right: 20px;
+}
+.side-nav ul li{
+   list-style: none;
+   display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+}
+.side-nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;
+    margin-right: 20px;
+    padding: 7px 13px;
+    border-radius: 10px;
+ }
+  a.active,a:hover{
+    color: aliceblue;
+    background-color:rgb(8, 120, 194) ;
+    transition: .5s;
+ } */
+ 
+
+
+/* @media screen and (max-width:768px) {
+    .navbar-brand{
+        font-size: 30px;
+        margin:0 0 0 20px;
+    }
+    .side-nav ul li a{
+        font-size: 17px;
+        font-weight: 600
+    }
+   
+} */
+/* @media screen and (max-width:768px) {
+    .checkbtn{
+        display: block;
+    }
+    .side-nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(20, 186, 231);
+        top: 80px;
+        left: -100px;
+        text-align: center;
+        transition: all .5s;
+    }
+    .side-nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .side-nav ul li a{
+        font-size: 20px;
+    }
+    .side-nav ul li a:hover{
+        background-color: #39396e;
+        color: white;
+    } 
+    .bars.checkbtn:checked~ul{
+        left: 0;
+    } 
+} */
